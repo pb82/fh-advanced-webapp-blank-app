@@ -1,12 +1,6 @@
-var webapp = require('fh-webapp');
 var express = require('express');
-$fh = require('fh-api');
-var mainjs = require('main.js');
 
 var app = express();
-app.use('/sys', webapp.sys(mainjs));
-app.use('/mbaas', webapp.mbaas);
-app.use('/cloud', webapp.cloud(mainjs));
 
 app.use(express.static(__dirname + '/public'));
 
