@@ -1,4 +1,6 @@
+var webapp = require('fh-webapp');
 var express = require('express');
+$fh = require('fh-api');
 
 var app = express();
 
