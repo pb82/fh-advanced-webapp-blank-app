@@ -1,4 +1,5 @@
 {
+  "id": "blank_advanced_webapp",
   "name": "Blank Advanced Web App",
   "type": "webapp_advanced",
   "repoUrl": "https://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
