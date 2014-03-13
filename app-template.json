@@ -2,7 +2,7 @@
   "id": "blank_advanced_webapp",
   "name": "Blank Advanced Web App",
   "type": "webapp_advanced",
-  "repoUrl": "https://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
+  "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
   "repoBranch": "refs/heads/master",
   "icon": "icon-globe",
   "category": "Blank Apps"
