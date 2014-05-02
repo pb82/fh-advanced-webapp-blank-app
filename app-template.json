@@ -1,9 +1,0 @@
-{
-  "id": "blank_advanced_webapp",
-  "name": "Blank Advanced Web App",
-  "type": "webapp_advanced",
-  "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-  "repoBranch": "refs/heads/6066-connection-bugfixing",
-  "icon": "icon-globe",
-  "category": "Blank Apps"
-}
