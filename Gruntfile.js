@@ -87,6 +87,9 @@ module.exports = function(grunt) {
         path: 'http://127.0.0.1:8001',
         app: 'Google Chrome'
       }
+    },
+    browserify: {
+      'public/main.js': ['init.js']
     }
   });
 
@@ -109,4 +112,5 @@ grunt.registerTask('serve', function (target) {
   // grunt.registerTask('serve', ['env:local', 'concurrent:serve']);
   grunt.registerTask('debug', ['env:local', 'concurrent:debug']);
   grunt.registerTask('default', ['serve']);
+  grunt.loadNpmTasks('grunt-browserify');
 };

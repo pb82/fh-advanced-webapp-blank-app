@@ -2,23 +2,29 @@
   "name": "fh-advanced-webapp",
   "version": "0.1.1",
   "dependencies": {
+    "corser": "1.2.0",
     "express": "3.3.4",
-    "corser": "1.2.0"
+    "fh-js-sdk": "^2.14.4"
   },
   "devDependencies": {
-    "grunt-contrib-watch": "latest",
-    "grunt-nodemon": "0.2.0",
+    "browserify": "^13.1.0",
+    "browserify-shim": "^3.8.12",
+    "grunt": "^0.4.4",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cli": "^1.2.0",
     "grunt-concurrent": "latest",
-    "grunt-shell": "0.6.4",
+    "grunt-contrib-watch": "latest",
     "grunt-env": "~0.4.1",
-    "load-grunt-tasks": "~0.4.0",
-    "time-grunt": "~0.3.1",
     "grunt-node-inspector": "~0.1.5",
+    "grunt-nodemon": "0.2.0",
     "grunt-open": "~0.2.3",
-    "grunt": "^0.4.4"
+    "grunt-shell": "0.6.4",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.3.1"
   },
   "main": "application.js",
   "scripts": {
-    "start": "node application.js"
+    "start": "node application.js",
+    "install": "./node_modules/grunt-cli/bin/grunt browserify"
   }
 }
