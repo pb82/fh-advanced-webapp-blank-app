@@ -23,7 +23,7 @@ If you do not have access to a RHMAP instance, you can sign up for a free instan
 
 ### RHMAP Studio
 
-This application and its cloud services are available as a project template in RHMAP as part of the "Backbone Hello World Project" template.
+This application and its cloud services are available as a project template in RHMAP as part of the "Hello World Web App Project" template.
 
 ### Local Clone (ideal for Open Source Development)
 If you wish to contribute to this template, the following information may be helpful; otherwise, RHMAP and its build facilities are the preferred solution.
