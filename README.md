@@ -2,20 +2,20 @@ fh-advanced-webapp-blank-app
 ============================
 Author: Erik Jan de Wit   
 Level: Intermediate   
-Technologies: Javascript, Cordova, RHMAP   
-Summary: An Hybrid client side template with RHMAP.   
-Community Project: [Feed Henry](http://feedhenry.org)   
+Technologies: Javascript, RHMAP   
+Summary: An advanced web application template to use with RHMAP.   
+Community Project: [FeedHenry](http://feedhenry.org)   
 Target Product: RHMAP   
 Product Versions: RHMAP 3.8.0+   
 Source: https://github.com/feedhenry-templates/sync-cordova-app   
-Prerequisites: fh-js-sdk : 2.14.+, Cordova 5.0+   
+Prerequisites: fh-js-sdk : 2.14.+ 
 
 > Note: since RHMAP 3.14, this repository is deprecated in favor of [blank-cordova-app](https://github.com/feedhenry-templates/blank-cordova-app)
 
 
 ## What is it?
 
-This application is an Hybrid client side template, it should be used in combination with the [HelloWorld cloud app](https://github.com/feedhenry-templates/helloworld-cloud). Refer to [fhconfig.json](www/fhconfig.json) for configuration.
+This application is an advanced web application template. It should be used in combination with the [HelloWorld cloud app](https://github.com/feedhenry-templates/helloworld-cloud). Refer to [fhconfig.json](www/fhconfig.json) for configuration.
 
 If you do not have access to a RHMAP instance, you can sign up for a free instance at [https://openshift.feedhenry.com/](https://openshift.feedhenry.com/).
 
@@ -30,19 +30,18 @@ If you wish to contribute to this template, the following information may be hel
 
 ###  Prerequisites  
  * fh-js-sdk : 2.14.+
- * cordova: 5.0+
 
 ## Build instructions
  * npm install
  * Edit [fhconfig.json](www/fhconfig.json) to include the relevant information from RHMAP.  
  * Build and run locally
 ```
-cordova serve  
+npm start  
 ```
-Go to [http://localhost:8000/](http://localhost:8000/)
+Go to [http://localhost:8001/](http://localhost:8001/)
 
 ### npm dependencies
-The `fh-js-sdk` and other development dependencies are defined in [package.json](package.json) and included in a [browserified script](www/main.js).
+The `fh-js-sdk` and other development dependencies are defined in [package.json](package.json) and included in a [browserified script](public/main.js).
 
 * This generated [main.js](public/main.js) file is checked-in to allow RHMAP studio preview to statically serve dependencies.
 
@@ -53,7 +52,7 @@ The `fh-js-sdk` and other development dependencies are defined in [package.json]
 ### Updating fh-js-sdk version
 To update the JS SDK:
 - change the version in [package.json](package.json)
-- run `npm install` a grunt task is automatically ran to regenerate main.js
+- run `npm install` a grunt task is automatically ran to regenerate `main.js`
 - check-in git repo the npackage.json + main.js
 
 ### Grunt
@@ -62,7 +61,7 @@ This template uses [Grunt](http://gruntjs.com/), the Javascript Task Runner. To 
 
 * Install grunt: ```npm install -g grunt-cli```
 * In your App directory, run: ```npm install```. This installs Grunt plugins, etc for use with this App.
-* Run ```grunt serve``` to preview this App locally
+* Run ```npm start``` to preview this App locally
 
 
 ### FeedHenry local development
