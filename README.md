@@ -7,11 +7,8 @@ Summary: An advanced web application template to use with RHMAP.
 Community Project: [FeedHenry](http://feedhenry.org)   
 Target Product: RHMAP   
 Product Versions: RHMAP 3.8.0+   
-Source: https://github.com/feedhenry-templates/sync-cordova-app   
+Source: https://github.com/feedhenry/fh-advanced-webapp-blank-app 
 Prerequisites: fh-js-sdk : 2.14.+ 
-
-> Note: since RHMAP 3.14, this repository is deprecated in favor of [blank-cordova-app](https://github.com/feedhenry-templates/blank-cordova-app)
-
 
 ## What is it?
 
