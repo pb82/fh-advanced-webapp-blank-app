@@ -113,4 +113,5 @@ grunt.registerTask('serve', function (target) {
   grunt.registerTask('debug', ['env:local', 'concurrent:debug']);
   grunt.registerTask('default', ['serve']);
   grunt.loadNpmTasks('grunt-browserify');
+  grunt.loadNpmTasks('grunt-fh-build');
 };
