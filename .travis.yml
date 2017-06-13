@@ -5,9 +5,14 @@ services:
   - mongodb
   - docker
 node_js:
-  - "0.10"
   - "4.4.3"
+  - "6.9.1"
 before_install:
+ - npm install -g grunt
+ - npm install -g grunt-cli
+ - npm install 
+install: 
   - npm install fh-build -g
+  - npm ls
   - fh-build template
-install: npm install
+  
